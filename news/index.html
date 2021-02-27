@@ -155,6 +155,26 @@
       <small>Source: <a href='https://github.com/easystats/see/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
     </div>
 
+    <div id="see-063" class="section level1">
+<h1 class="page-header" data-toc-text="0.6.3">
+<a href="#see-063" class="anchor"></a>see 0.6.3<small> Unreleased </small>
+</h1>
+<div id="new-plot-functions" class="section level2">
+<h2 class="hasAnchor">
+<a href="#new-plot-functions" class="anchor"></a>New plot functions</h2>
+<ul>
+<li>Added plot-function for <code><a href="https://easystats.github.io/parameters/reference/compare_parameters.html">parameters::compare_parameters()</a></code>.</li>
+</ul>
+</div>
+<div id="minor-changes" class="section level2">
+<h2 class="hasAnchor">
+<a href="#minor-changes" class="anchor"></a>Minor changes</h2>
+<ul>
+<li><p>The <code><a href="https://easystats.github.io/performance/reference/check_heteroscedasticity.html">check_heteroscedasticity()</a></code> plot contains a dashed horizontal line, which makes it to assess the homoscedasticity assumption.</p></li>
+<li><p>The Y-axis label for <code><a href="https://easystats.github.io/performance/reference/check_collinearity.html">check_collinearity()</a></code> plot clarifies that the measure being plotted is VIF. This was unclear when this plot was embedded in a grid of plots from <code>check_model</code> containing multiple checks.</p></li>
+</ul>
+</div>
+</div>
     <div id="see-062" class="section level1">
 <h1 class="page-header" data-toc-text="0.6.2">
 <a href="#see-062" class="anchor"></a>see 0.6.2<small> 2021-02-04 </small>
@@ -209,9 +229,9 @@
 <li>Harmonized spelling of arguments. Formerly, we had <code>text_size</code> and <code>size_text</code>, or just <code>size</code> even if only in the context of text labels. We now tried to harmonize these kind of arguments to gain more consistency throughout the different <code><a href="https://rdrr.io/r/graphics/plot.default.html">plot()</a></code> methods.</li>
 </ul>
 </div>
-<div id="new-plot-functions" class="section level2">
+<div id="new-plot-functions-1" class="section level2">
 <h2 class="hasAnchor">
-<a href="#new-plot-functions" class="anchor"></a>New plot functions</h2>
+<a href="#new-plot-functions-1" class="anchor"></a>New plot functions</h2>
 <ul>
 <li><p>Added plot-function for <code><a href="https://easystats.github.io/parameters/reference/model_parameters.html">parameters::model_parameters()</a></code> for brms-meta-analysis models.</p></li>
 <li><p>Added plot-function for <code><a href="https://easystats.github.io/performance/reference/pp_check.html">performance::pp_check()</a></code>.</p></li>
@@ -293,9 +313,9 @@
 <code><a href="../reference/golden_ratio.html">golden_ratio()</a></code> was added as a helper to get nice proportions.</li>
 </ul>
 </div>
-<div id="new-plot-functions-1" class="section level2">
+<div id="new-plot-functions-2" class="section level2">
 <h2 class="hasAnchor">
-<a href="#new-plot-functions-1" class="anchor"></a>New plot functions</h2>
+<a href="#new-plot-functions-2" class="anchor"></a>New plot functions</h2>
 <ul>
 <li><p>Added plot-function for <code>correlation::summary()</code>.</p></li>
 <li><p>Added plot-function for <code><a href="https://easystats.github.io/parameters/reference/describe_distribution.html">parameters::describe_distribution()</a></code>.</p></li>
@@ -324,9 +344,9 @@
 <li>Reduce package dependencies.</li>
 </ul>
 </div>
-<div id="new-plot-functions-2" class="section level2">
+<div id="new-plot-functions-3" class="section level2">
 <h2 class="hasAnchor">
-<a href="#new-plot-functions-2" class="anchor"></a>New plot-functions</h2>
+<a href="#new-plot-functions-3" class="anchor"></a>New plot-functions</h2>
 <ul>
 <li>Added plot-function for <code><a href="https://easystats.github.io/correlation/reference/correlation.html">correlation::correlation()</a></code>.</li>
 </ul>
@@ -353,9 +373,9 @@
 <li>Arguments <code>ncol</code> and <code>nrow</code> in <code><a href="../reference/plots.html">plots()</a></code> were renamed into <code>n_columns</code> and <code>n_rows</code> to be consistent with arguments from other functions in the <strong>see</strong>-package.</li>
 </ul>
 </div>
-<div id="new-plot-functions-3" class="section level2">
+<div id="new-plot-functions-4" class="section level2">
 <h2 class="hasAnchor">
-<a href="#new-plot-functions-3" class="anchor"></a>New plot-functions</h2>
+<a href="#new-plot-functions-4" class="anchor"></a>New plot-functions</h2>
 <ul>
 <li><p>Added plot-function for <code><a href="https://easystats.github.io/performance/reference/compare_performance.html">performance::compare_performance()</a></code>.</p></li>
 <li><p>Added plot-function for <code><a href="https://easystats.github.io/bayestestR/reference/si.html">bayestestR::si()</a></code>.</p></li>
@@ -398,9 +418,9 @@
 <li><p>Labels and plot annotations are now more “human readable”, and labelling is more context sensitive.</p></li>
 </ul>
 </div>
-<div id="new-plot-functions-4" class="section level2">
+<div id="new-plot-functions-5" class="section level2">
 <h2 class="hasAnchor">
-<a href="#new-plot-functions-4" class="anchor"></a>New plot-functions</h2>
+<a href="#new-plot-functions-5" class="anchor"></a>New plot-functions</h2>
 <ul>
 <li><p>Added <code>coord_radar</code> for radar charts.</p></li>
 <li><p>Added plot-function for <code><a href="https://easystats.github.io/parameters/reference/cluster_analysis.html">parameters::cluster_analysis()</a></code>.</p></li>
@@ -435,9 +455,9 @@
 <li><p>Added new color-palettes.</p></li>
 </ul>
 </div>
-<div id="new-plot-functions-5" class="section level2">
+<div id="new-plot-functions-6" class="section level2">
 <h2 class="hasAnchor">
-<a href="#new-plot-functions-5" class="anchor"></a>New plot-functions</h2>
+<a href="#new-plot-functions-6" class="anchor"></a>New plot-functions</h2>
 <ul>
 <li><p>Added plot-function for <code><a href="https://easystats.github.io/parameters/reference/model_parameters.html">parameters::model_parameters()</a></code>.</p></li>
 <li><p>Added plot-function for <code><a href="https://easystats.github.io/bayestestR/reference/point_estimate.html">bayestestR::point_estimate()</a></code>.</p></li>
@@ -480,9 +500,9 @@
 <code><a href="../reference/theme_lucid.html">theme_lucid()</a></code>, a light and clear theme.</li>
 </ul>
 </div>
-<div id="new-plot-functions-6" class="section level2">
+<div id="new-plot-functions-7" class="section level2">
 <h2 class="hasAnchor">
-<a href="#new-plot-functions-6" class="anchor"></a>New plot-functions</h2>
+<a href="#new-plot-functions-7" class="anchor"></a>New plot-functions</h2>
 <ul>
 <li><p>Added plot-function for <code><a href="https://easystats.github.io/performance/reference/check_model.html">performance::check_model()</a></code>.</p></li>
 <li><p>Added plot-function for <code><a href="https://easystats.github.io/performance/reference/check_normality.html">performance::check_normality()</a></code>.</p></li>
